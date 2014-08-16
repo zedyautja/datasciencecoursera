@@ -1,0 +1,16 @@
+{
+    "contents" : "data1<- read.csv(\"hw1_data.csv\")\ncolnames(data1)  ##question 11\ndata1[1:2] ## just give the columns, I want the first 2 rows\ndata1[1:2,] ##question 12\nnrow(data1) ##question 13\ndata1[152:153,] ##quesiton 14\ndata1[47,] ##question 15\ndata2<-is.na[\"Ozone\"]\nSolar<-subset(data1, Ozone >31 & Temp >90, select=Solar.R) #question 18 prep\nmean(Solar$Solar.R) #question 18 answer\nTemp<-subset(data1, Month ==6) #question 19\nmean(Temp$Temp) #question 19\nozone1<-subset(data1, Month ==5, select=Ozone)\naggregate(ozone1$Ozone, max)\nozone1\nf<-function(a,b){\n  print (a)\n  print (b)\n}\nf(45)\nf(45,55)\nx <- 1:10\nif(x > 5) {\n  x <- 0\n}\nf <- function(x) {\n  g <- function(y) {\n    y + z\n  }\n  z <- 4\n  x + g(x)\n}\nz<-10\nf(3)\nadd2 <-function(x,y) {\n        x+y\n}\n\nabove_10 <-function(x) {\n        use <- x > 10\n        x[use]\n}\n\nf <- function(x) {\n        g <- function(y) {\n                y + z\n        }\n        z <- 4\n        x + g(x)\n}\ncolumnmean <- function(y, removeNA = TRUE) {\n        nc <- ncol(y)\n        means <- numeric(nc)\n        for (i in 1:nc) {\n                means[i] <- mean(y[,i], na.rm = removeNA)\n        }\n        means\n}\n?strptime\ncube <- function(x, n) {\n        x^3\n}\nx <- 1:10\nif(x > 5) {\n        x <- 0\n}\nf <- function(x) {\n        g <- function(y) {\n                y + z\n        }\n        z <- 4\n        x + g(x)\n}\nz <- 10\nf(3)\n",
+    "created" : 1408212484680.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4157462447",
+    "id" : "A5B71FA",
+    "lastKnownWriteTime" : 1408229079,
+    "path" : "~/GitHub/R-working/Coursera stuff/week 2.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

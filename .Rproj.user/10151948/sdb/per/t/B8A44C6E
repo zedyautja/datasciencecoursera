@@ -1,0 +1,17 @@
+{
+    "contents" : "columnmean <- function(y, removeNA = TRUE) {\n        nc <- ncol(y)\n        means <- numeric(nc)\n        for (i in 1:nc) {\n                means[i] <- mean(y[,i], na.rm = removeNA)\n        }\n        means\n}",
+    "created" : 1408225373559.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3078834069",
+    "id" : "B8A44C6E",
+    "lastKnownWriteTime" : 1408226582,
+    "path" : "~/GitHub/R-working/Coursera stuff/columnmean.R",
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
