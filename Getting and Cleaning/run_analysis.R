@@ -1,4 +1,4 @@
-setwd("~/GitHub/datasciencecoursera/Getting and Cleaning") # delete this before submission
+setwd("~/GitHub/datasciencecoursera/Getting and Cleaning") # set the working directory.
 
 
 
